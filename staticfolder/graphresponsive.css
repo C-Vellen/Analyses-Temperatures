@@ -1,0 +1,50 @@
+/* css responsive */
+
+@media screen and (max-width:800px)
+{
+    #sliderContainer p {
+        font-size:12px;
+    }
+    #legendContainer ul {
+        font-size:12px;
+    }
+}
+
+
+
+@media screen and (max-width:660px)
+{
+    #titreContainer {
+        padding-left:10px;
+        padding-right:10px;
+    }
+    #titreContainer h1 {
+        font-size:16px;
+        margin-bottom:5px;
+    }
+    #titreContainer h2 {
+        font-size:12px; 
+        margin-top:0px;
+    }
+    #footerContainer {
+        flex-direction:column;
+        justify-content:flex-start;
+        align-items: flex-start;
+    }
+    #svgSlider {
+        margin-top:-14px; /* = - rRunnerMin */
+    }
+
+    #sliderContainer p {
+        font-size:12px;
+        margin:5px 14px 0px 60px; /* right = rRunner  /  left = svgMargin.left */
+    }
+    #legendContainer {
+        margin:10px 50px 0px 60px; /* right = svgMargin.right / left = svgMargin.left*/
+    }
+
+    #legendContainer ul {
+        font-size:12px;
+    }
+}
+
