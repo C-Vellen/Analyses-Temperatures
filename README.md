@@ -24,7 +24,7 @@
 
 <li>Mettre à jour les données :
 <ul>
-    <li>Lien pour télécharger les données : <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.0.2.0/download.html">ici</a>
+    <li>Lien pour télécharger les données : <a href="https://www.metoffice.gov.uk/hadobs/hadcrut5/">ici</a>, puis cliquer sur DOWNLOAD DATA
     </li>
     <li>
     Fichiers à télécharger :
@@ -35,8 +35,8 @@
     <li>
     Enregistrer les 2 fichiers téléchargés :
     <ul>
-    <li>HadCRUT.5.0.2.0.analysis.summary_series.global.monthly.csv</li>
-    <li>HadCRUT.5.0.2.0.analysis.summary_series.global.annual.csv</li>
+    <li>HadCRUT.5.1.0.0.analysis.summary_series.global.monthly.csv</li>
+    <li>HadCRUT.5.1.0.0.analysis.summary_series.global.annual.csv</li>
     </ul>
     dans le dossier <strong>data/</strong>
     </li>
@@ -50,6 +50,8 @@
     <li>Dans la cellule "A documenter", choisir la <strong>version</strong> = référence des évolutions de température (1961-1990 ou pré-industriel)
     </li>
     <li>Vérifier le nom des fichiers <strong>sourceFiles</strong>.
+    </li>
+     <li>Vérifier l'échelle de temps : variables <strong>dateDebut</strong> et <strong>dateFin</strong>>.
     </li>
     <li>Dans la liste <strong>curveToDisplay</strong> choisir les courbes à afficher en commentant / décommentant. On peut notamment choisir d'afficher la moyenne glissante selon différentes méthodes de calcul (simple, centrée, pondérée, exponentielle).
     </li>
