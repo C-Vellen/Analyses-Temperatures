@@ -1,17 +1,19 @@
 [project]
 name = "analyses-temperatures"
 version = "0.1.0"
-description = ""
-authors = [
-    {name = "Christophe Vellen",email = "christophe.vellen@gmail.com"}
-]
+description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.12"
+authors = [
+    { name = "Christophe Vellen", email = "christophe.vellen@gmail.com" }
+]
+requires-python = ">=3.12, <3.14"
 dependencies = [
-    "pandas (>=2.3.0,<3.0.0)"
+    "pandas>=3.0.6",
 ]
 
+[project.scripts]
+analyses-temperatures = "analyses_temperatures:main"
 
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
